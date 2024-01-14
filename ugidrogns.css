@@ -1,0 +1,86 @@
+nav {
+    background-color: nav 
+    background-color rgb(54, 54, 54);
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 10;
+    text-decoration: none;
+    color: rgb(6, 0, 12);
+    padding: 6px 8px;
+}
+
+li a:hover {
+    background-color: rgb(124, 124, 124);
+    
+}
+
+.logo {
+    float: left;
+}
+
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 10;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 6px 8px;
+}
+
+li a:hover {
+    background-color: rgb(0, 0, 255);
+    box-shadow: 59px 30px rgb(18, 132, 145);
+}
+
+.logo {
+    float: left;
+}
+body 
+{background: rgb(60, 0, 255);
+    background: linear-gradient(90deg, rgba(60, 0, 255, 1) 51%, rgba(133, 208, 245, 1) 94%);
+    font-family: 'Pixelify Sans';
+}
+
+h1 {
+    text-align: center;
+}
+body countdown {
+        display: flex;
+        justify-content: center;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .countdown-item {
+        margin: 0 20px;
+        text-align: center;
+    }
+
+    .countdown-item span {
+        display: block;
+        font-size: 2em;
+    }
+
+   
+    

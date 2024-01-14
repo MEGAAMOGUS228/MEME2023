@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ugidrogns.css">
+</head>
+><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Pixelify+Sans&display=swap" rel="stylesheet">
+<body>
+    <P><h1>мемы 2023 UwU</h1></P>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="rtnugtrio;lgnvtrgigjtjgh.html">шай лушай.</a></li>
+                <li><a href="ААДПЛИВИПИП.html">сигма.</a></li>
+                <li><a href="hifgfin.html">poco x3 pro.</a></li>
+                <li><a href="hybgf.html">сегодня математик.</a></li>
+            </ul>
+        </nav>
+    </header>
+    до взрыва ядерки
+    <div class="siteblock">
+        <div class="countdown">
+            <div class="countdown-item">
+                <span id="days">00</span>
+                <span class="label">Дней</span>
+            </div>
+            <div class="countdown-item">
+                <span id="hours">00</span>
+                <span class="label">Часов</span>
+            </div>
+            <div class="countdown-item">
+                <span id="minutes">00</span>
+                <span class="label">Минут</span>
+            </div>
+            <div class="countdown-item">
+                <span id="seconds">00</span>
+                <span class="label">Секунд</span>
+            </div>
+        </div>
+    </div>
+    <script>
+        const countdown = document.querySelector('.countdown');
+        const targetDate = new Date('2024-03-26T06:00:00');
+
+        function updateCountdown() {
+            const now = new Date();
+            const remainingTime = targetDate - now;
+
+            const days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
+
+            document.getElementById('days').innerText = days.toString().padStart(2, '0');
+            document.getElementById('hours').innerText = hours.toString().padStart(2, '0');
+            document.getElementById('minutes').innerText = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').innerText = seconds.toString().padStart(2, '0');
+        }
+
+        // Обновляем счетчик каждую секунду
+        setInterval(updateCountdown, 1000);
+    </script>
+</body>
+</html>

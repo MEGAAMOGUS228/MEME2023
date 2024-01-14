@@ -1,0 +1,27 @@
+body {
+    background-image: url(https://jobses.ru/image/cache/catalog/products/xiaomi-phones/poco-x3-pro/poco-x3-pro-blue-3-700x700.jpeg);
+
+    width: 640px;
+    margin: auto;
+}
+
+
+body {
+    font-family: 'Pixelify Sans';
+}
+
+p {
+    border: 5px solid black;
+    background-color: blanchedalmond;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 40px;
+}
+
+h1 {
+    border: 5px solid black;
+    background-color: blanchedalmond;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 40px;
+}
